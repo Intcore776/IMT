@@ -1,0 +1,13 @@
+<?php 
+    header('Content-Type: text/html; charset=utf-8');
+    ini_set('display_errors',true);
+    error_reporting(E_ALL);
+    
+    $height = 5; 
+    for ($y = 1; $y <= $height; $y++) {
+        echo "<pre>";
+        echo str_repeat('&nbsp;',($height-$y)*2);
+        echo str_repeat('&nbsp;1 &nbsp;', $y) . "<br>";
+        echo "</pre>";
+    }
+?>
