@@ -1,0 +1,102 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;
+}
+
+header {
+    height: 100px;
+    border: 1px solid black;
+}
+
+.logo {
+    background: #808080;
+    float: left;
+    margin: 5px;
+    padding: 25px;
+    width: 200px;
+}
+
+.menu_site {
+    display: inline;
+    position: absolute;
+    height: 100px;
+    float: none;
+    margin-top: -20px;
+    padding: 0;
+    margin-left: 260px;
+}
+
+.product_categories, .content {
+    height: 500px;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.product_categories {
+    width: 300px;
+    float: left;
+}
+
+li {
+
+}
+
+ul {
+
+}
+
+#menu, #menu li {
+
+    margin: 0; /* убрать внутренние отступы */
+
+    padding: 0; /* убрать внешние отступы */
+
+}
+
+#menu {
+
+    background: #03658e; /* цвет фона навигационной панели */
+
+}
+
+#menu li {
+
+    display: inline-block; /* расположить пункты горизонтально */
+
+    text-align: center; /* текст горизонтально по центру */
+
+}
+
+#menu a {
+
+    display: block; /* ссылка растягивается на весь пункт li */
+
+    padding: 5px 15px; /* задаем внутренние отступы */
+
+    color: #fff; /* цвет текста */
+
+    text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+
+}
+
+#menu a:hover {
+
+    background: #8AB8CC; /* фон пунктов при наведении */
+
+}
+
+.content {
+    float: none;
+    margin-left: 303px;
+}
+
+footer {
+    height: 50px;
+    border: 1px solid black;
+}
